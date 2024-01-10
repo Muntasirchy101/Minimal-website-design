@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(131, 131, 222, 0.786);
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+div h1 {
+    text-align: center;
+    margin:30px 0 20px 0;
+    color: #fff;
+    font-family: gilroy;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+}
+
+.mail-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail-form input {
+    margin-bottom: 25px;
+    height: 35px;
+    width: 250px;
+    background-color: #ada7a793;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+
+}
+
+.mail-form input::placeholder {
+    text-align: start;
+    padding-left: 10px;
+}
+.mail-form :last-child input {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.mail-form input[type="checkbox"] + label {
+    display: flex;
+    align-items: center;
+}
+
+.btn_primary {
+    font-size: 18px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: rgba(17, 67, 207, 0.671);
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-family: gilroy;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: .3s;
+
+}
+
+.second {
+    font-size: 18px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: rgba(207, 17, 39, 0.671);
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-family: gilroy;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: .3s;
+}
+
+.third {
+    font-size: 18px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: rgba(20, 17, 207, 0.671);
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-family: gilroy;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: .3s;
+}
+
+.btn_primary:hover {
+    background-color: #ffffff7d;
+    color: black;
+}
+
+.second:hover {
+    background-color: #ffffff40;
+    color: black;
+    
+}
+
+.third:hover {
+    cursor: pointer;
+    background-color: rgb(12, 12, 12);
+}
